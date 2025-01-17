@@ -1,6 +1,6 @@
-baseURL = 'https://h2w2-life.github.com/'
+baseURL = 'https://h2w2-life.github.io/blog/'
 languageCode = 'en-us'
-title = 'H2W2.Life'
+title = 'h2w2.life'
 
 # https://ox-hugo.scripter.co/doc/quick-start/
 [module]
@@ -8,3 +8,8 @@ title = 'H2W2.Life'
     path = "github.com/adityatelange/hugo-PaperMod"
 [markup.goldmark.renderer]
   unsafe = true
+
+# https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/
+[params]
+  comments = true
+  defaultTheme = auto
